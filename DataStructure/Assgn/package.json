@@ -1,0 +1,39 @@
+{
+  "name": "assgn",
+  "version": "1.0.0",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "rules": {
+      "semi": 0,
+      "quotes": 0,
+      "camelcase": 0,
+      "eqeqeq": 1,
+      "no-control-regex": 0,
+      "handle-callback-err": 0,
+      "no-useless-escape": 0
+    }
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "async": "3.2.0",
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "mysql": "2.18.1",
+    "express": "4.17.1"
+  },
+  "keywords": [],
+  "description": ""
+}
